@@ -14,12 +14,11 @@ jobs:
 
       - name: Build
         run: |
-          # build commands here
           npm install
           npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          branch: main  # The branch to deploy to
-          folder: frontend/index.html       # The directory containing your static files
+          branch: gh-pages  
+          folder: frontend  # The directory containing your static files
