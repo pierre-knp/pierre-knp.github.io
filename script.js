@@ -2,7 +2,7 @@
 
 const hamburger = document.getElementById('hamburger'); 
 const menu = document.querySelector('.menu'); 
-
+console.log("test")
 hamburger.addEventListener('click', function () { 
     const hamIcon = this.querySelector('.hamburger-icon'); 
     const crossIcon = this.querySelector('.cross-icon'); 
