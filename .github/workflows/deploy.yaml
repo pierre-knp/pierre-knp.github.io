@@ -17,4 +17,5 @@ jobs:
         with:
           branch: gh-pages
           folder: frontend # serve index.html from this folder
+          token: ${{ secrets.GH_PAGES_WORKFLOW_TOKEN }}
           # clean: true  # Optional: Clean up the branch before deployment
