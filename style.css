@@ -32,11 +32,12 @@ body {
 .menu { 
     padding: 0 5rem; 
 } 
-
+ /* TODO  Make hamburger be on the left side*/
 .hamburger { 
     display: none; 
     color: #fff; 
     font-size: 25px; 
+    
 } 
 
 .cross-icon { 
